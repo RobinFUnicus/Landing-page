@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    /* This font seems to auto bold but it looks nice so I'll keep it*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -11,7 +12,7 @@ body{
 
 .hero{
     padding: 0 64px;
-    padding-bottom: 24px;
+    padding-bottom: 96px;
 }
 
 .hero-1{
@@ -38,6 +39,11 @@ body{
 
 .hero li{
     list-style: none;
+}
+
+.secondary-text{
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .hero-2{
@@ -71,7 +77,7 @@ img{
 }
 
 .random-info{
-    padding: 24px;
+    padding: 96px;
 }
 
 .random-info h2{
@@ -99,22 +105,72 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px
+    padding: 96px;
 }
 
 .quote-container{
     width: 1000px;
 }
 
-.quote{
-    
+.quote{    
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
     color: #1F2937;
+    margin: 0;
 }
 
 .quoter{
     font-size: 36px;
     text-align: end;
+    margin: 0;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px;
+}
+
+.blue-banner{
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    gap: 24px;
+    width: 800px;
+    height: 100px;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+}
+
+.banner-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+    border-radius: 12px;
+    height: max-content;
+    padding: 8px;
+}
+
+.banner-title{
+    font-size: 24px;
+    margin: 2px;
+}
+
+.banner-desc{
+    font-size: 18px;
+    margin: 2px;
+}
+
+.footer{
+    padding: 24px;
+}
+
+.copyright{
+    color: #F9FAF8;
+    text-align: center;
 }
