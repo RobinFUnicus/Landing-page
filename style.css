@@ -11,6 +11,7 @@ body{
 
 .hero{
     padding: 0 64px;
+    padding-bottom: 24px;
 }
 
 .hero-1{
@@ -41,18 +42,79 @@ body{
 
 .hero-2{
     display: flex;
-    gap: 16px;
+    justify-content: space-evenly;
 }
 
-.hero h4{
+.hero h1{
     color: #F9FAF8;
     font-weight: bolder;
     font-size: 48px;
 }
 
 .sign-up{
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
     padding: 8px;
     border-radius: 12px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.random-info{
+    padding: 24px;
+}
+
+.random-info h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-pieces-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: auto;
+}
+
+.info-text{
+    width: 150px;
+    text-align: center;
+}
+
+.inspiring-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px
+}
+
+.quote-container{
+    width: 1000px;
+}
+
+.quote{
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.quoter{
+    font-size: 36px;
+    text-align: end;
 }
